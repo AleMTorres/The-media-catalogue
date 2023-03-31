@@ -1,0 +1,177 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    background-color: #060d17;
+    color: #fff;
+}
+
+img{
+    border-radius: 12px;
+}
+
+html {
+    background-color: #060d17;
+}
+
+body {
+    color: #fff;
+    background-color: #060d17;
+}
+
+
+
+.showcase{
+    margin-bottom: 20px;
+    width: 120%;
+    height: 93vh;
+    position: relative;
+    background-image: url('/images/background.jpg') ;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #060d17, inset -120px -100px 250px #060d17;
+}
+
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.showcase-top img{
+    width: 500px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 0;
+}
+
+.showcase-content {
+    top: 20%;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.showcase-content h1 {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.showcase-content p{
+    background-color: transparent;
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+.media-content .title {
+    margin-bottom: 50px;
+}
+
+.footer, .navbar {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-left: 20px;
+}
+
+.input {
+    width: 10rem;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.link {
+    margin-bottom: 50px;
+}
+
+.title, .subtitle {
+    color: #fff;
+}
+
+.card-content, .footer {
+    background-color: #060d17;
+}
+
+.watchlist-column {
+    margin: 2px 2px;
+    border-radius: 10px;
+    border: 1px solid #ffffff85;
+    padding-bottom: 1px;
+}
+
+a.navbar-item, .navbar-link {
+    color: #fff;
+}
+
+.navbar-dropdown {
+    background-color: #060d17;
+}
+
+.main-image:hover{
+    opacity: 0.5;
+}
+
+.fa-bookmark:hover{
+    transform: scale(1.5);
+}
+
+.head-info {
+    width: 100%;
+    height: 20%;
+    background-color: #00c4a7;
+}
+
+.people-card{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.people-link:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 428px) {
+    .mobile-column {
+        flex: none !important;
+        width: 50% !important;
+    }
+    .footer-text {
+        font-size: 0.625rem;
+    }
+}
