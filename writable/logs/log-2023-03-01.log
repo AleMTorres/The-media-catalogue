@@ -1,0 +1,14 @@
+CRITICAL - 2023-03-01 14:17:38 --> syntax error, unexpected '}'
+in APPPATH\Libraries\MostPopularMovies.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\MostPopularMovies.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\MostPopularMovies')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\MostPopularMovies')
+ 4 APPPATH\Views\index.php(15): spl_autoload_call('App\\Libraries\\MostPopularMovies')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 8 APPPATH\Controllers\Home.php(10): view('index')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

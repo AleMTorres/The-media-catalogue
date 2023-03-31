@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-01 16:57:51 --> The $baseURL is not set.
+in SYSTEMPATH\HTTP\URI.php on line 780.
+ 1 SYSTEMPATH\Helpers\url_helper.php(62): CodeIgniter\HTTP\URI->getBaseURL()
+ 2 SYSTEMPATH\Helpers\url_helper.php(154): _get_uri('C:\\')
+ 3 SYSTEMPATH\Debug\Toolbar.php(81): current_url()
+ 4 SYSTEMPATH\Debug\Toolbar.php(371): CodeIgniter\Debug\Toolbar->run(1675270671.516307, 0.0547, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 5 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 6 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 7 SYSTEMPATH\CodeIgniter.php(519): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

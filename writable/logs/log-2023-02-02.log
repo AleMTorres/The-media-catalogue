@@ -1,0 +1,782 @@
+CRITICAL - 2023-02-02 13:21:41 --> Invalid file: "templatesFiles/templates.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templatesFiles/templates.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templatesFiles/templates', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 13:21:53 --> Invalid file: "templates/navbar-footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/navbar-footer.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar-footer', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:06:53 --> Undefined variable: autores
+in APPPATH\Views\templates\navbar_footer.php on line 49.
+ 1 APPPATH\Views\templates\navbar_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autores', 'APPPATH\\Views\\templates\\navbar_footer.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:07:05 --> Undefined variable: data
+in APPPATH\Views\templates\navbar_footer.php on line 49.
+ 1 APPPATH\Views\templates\navbar_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\templates\\navbar_footer.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:08:03 --> Undefined variable: data
+in APPPATH\Views\templates\navbar_footer.php on line 49.
+ 1 APPPATH\Views\templates\navbar_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\templates\\navbar_footer.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:08:10 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 49.
+ 1 APPPATH\Views\templates\navbar_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:08:50 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 49.
+ 1 APPPATH\Views\templates\navbar_footer.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:10:17 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:11:51 --> Undefined variable: data
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:13:42 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:19:34 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:20:15 --> Undefined variable: response
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: response', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:21:43 --> Cannot redeclare App\Controllers\Home::index()
+in APPPATH\Controllers\Home.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-02 15:22:43 --> Undefined variable: response
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: response', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:23:05 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:24:09 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:25:12 --> Undefined index: genre
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genre', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:25:21 --> Undefined index: genres
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:25:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:25:52 --> syntax error, unexpected 'json_decode' (T_STRING)
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:26:00 --> Undefined index: genres
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:27:55 --> Undefined index: genres
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:28:31 --> Trying to get property 'genres' of non-object
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'genres\' of non-object', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:28:55 --> Trying to get property 'genres' of non-object
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'genres\' of non-object', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:29:19 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:29:31 --> Undefined index: genres
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:29:41 --> Trying to get property 'genres' of non-object
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'genres\' of non-object', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:31:11 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:31:22 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:31:31 --> syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:31:38 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:31:59 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:38:17 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:38:31 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:38:55 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:47:16 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Home.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:48:55 --> Illegal string offset 'genre'
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'genre\'', 'APPPATH\\Controllers\\Home.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:49:00 --> Illegal string offset 'genres'
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'genres\'', 'APPPATH\\Controllers\\Home.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:49:34 --> Invalid argument supplied for foreach()
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 15:50:44 --> Cannot use [] for reading
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-02 16:06:01 --> Undefined variable: response
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: response', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:19:11 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:20:38 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:31:39 --> Undefined index: id
+in APPPATH\Controllers\Home.php on line 22.
+ 1 APPPATH\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Home.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:35:28 --> Undefined offset: 1
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:50:33 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:54:00 --> Undefined offset: 19
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 19', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 16:56:51 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Controllers\\Home.php', 22, [...])
+ 2 APPPATH\Controllers\Home.php(22): count(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:24:53 --> Undefined offset: 19
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 19', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:32:34 --> Undefined index: name
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Controllers\\Home.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:41:34 --> array_map() expects parameter 1 to be a valid callback, array must have exactly two members
+in APPPATH\Controllers\Home.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_map() expects parameter 1 to be a valid callback, array must have exactly two members', 'APPPATH\\Controllers\\Home.php', 23, [...])
+ 2 APPPATH\Controllers\Home.php(23): array_map([...], [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:49:53 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:50:21 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:50:35 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:51:33 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 17:52:28 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:01:48 --> Undefined index: name
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:01:59 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:03:29 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:06:35 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:07:45 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:07:56 --> Trying to get property 'genres' of non-object
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'genres\' of non-object', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:08:36 --> Undefined offset: 1
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:08:58 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:09:07 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:09:10 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:09:21 --> Trying to get property 'genres' of non-object
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'genres\' of non-object', 'APPPATH\\Controllers\\Home.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:09:32 --> Undefined variable: genres
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:12:02 --> Undefined offset: 0
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:12:10 --> Array to string conversion
+in APPPATH\Views\templates\navbar_footer.php on line 52.
+ 1 APPPATH\Views\templates\navbar_footer.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\templates\\navbar_footer.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('templates/navbar_footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:18:18 --> Undefined index: genres
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Controllers\\Home.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:19:53 --> Undefined index: genres
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Controllers\\Home.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 18:20:00 --> Undefined index: genres
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genres', 'APPPATH\\Controllers\\Home.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_genres()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 22:12:40 --> Undefined variable: genres
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 22:19:52 --> Undefined variable: genres
+in APPPATH\Views\templates\navbar_footer.php on line 50.
+ 1 APPPATH\Views\templates\navbar_footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: genres', 'APPPATH\\Views\\templates\\navbar_footer.php', 50, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\navbar_footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/navbar_footer', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 22:59:29 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Home.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:03:00 --> file_get_contents(http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:03:41 --> file_get_contents(http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('http://the-movie-catalogue.test/public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:04:32 --> file_get_contents(./public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(./public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 34, [])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('./public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:05:21 --> file_get_contents(/public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(/public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 34, [])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('/public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:05:34 --> file_get_contents(app/public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(app/public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 34, [])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('app/public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:06:09 --> file_get_contents(./public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(./public/movie_ids_12_31_2022.json): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Home.php', 34, [])
+ 2 APPPATH\Controllers\Home.php(34): file_get_contents('./public/movie_ids_12_31_2022.json')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:09:31 --> Illegal string offset 'name'
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH\\Controllers\\Home.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-02 23:10:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_ids_movies()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
